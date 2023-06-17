@@ -1,0 +1,37 @@
+import random
+
+# define the initial number of coins in the pile
+coins = 25
+
+# define the players
+players = ["Player 1", "Player 2"]
+
+# define the maximum number of coins that can be removed on each turn
+max_coins = 4
+
+# define a function to get the number of coins to remove on each turn
+def get_num_coins():
+    while True:
+        num = input("Enter the number of coins to remove (1-4): ")
+        if num.isdigit() and int(num) <= max_coins and int(num) > 0:
+            return int(num)
+        print("Invalid input. Please enter a number between 1 and 4.")
+
+# define the main game loop
+current_player = random.choice(players)
+
+while coins > 0:
+    print(f"{current_player}'s turn:")
+    num_coins = get_num_coins()
+    coins -= num_coins
+    print(f"{num_coins} coins removed from the pile. {coins} coins left.\n")
+    # if no coin is left the current player wins
+    if coins <= 0:
+        print(f"{current_player} has won!!!")
+        break
+    # decides which player turn it is
+    if current_player == players[0]:
+        current_player = players[1]
+    else:
+        current_player = players[0]
+        
