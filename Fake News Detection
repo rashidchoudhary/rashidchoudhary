@@ -1,0 +1,78 @@
+#import the necessary libraries
+import numpy as np
+import pandas as pd
+import re  #regular expression
+from nltk.corpus import stopwords #for removal of words like is,the,and,was,etc
+from nltk.stem.porter import PorterStemmer # To convert to lower case, removal of punctuation marks
+from sklearn.feature_extraction.text import TfidfVectorizer # For converting raw document in matrix form 
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression # For clasification in which class the data lies
+from sklearn.metrics import accuracy_score
+
+#enter the data set from kaggle....The dataset will be at top if we will search in browser for fake news dataset
+news_df = pd.read_csv('train.csv')
+
+news_df.head()
+
+news_df.shape
+
+news_df.isna().sum()
+
+news_df = news_df.fillna(' ')
+
+news_df.isna().sum()
+
+news_df['content'] = news_df['author']+" "+news_df['title']
+
+news_df
+
+news_df['content']
+
+# stemming
+ps = PorterStemmer()
+def stemming(content):
+    stemmed_content = re.sub('[^a-zA-Z]',' ',content)
+    stemmed_content = stemmed_content.lower()
+    stemmed_content = stemmed_content.split()
+    stemmed_content = [ps.stem(word) for word in stemmed_content if not word in stopwords.words('english')]
+    stemmed_content = ' '.join(stemmed_content)
+    return stemmed_content
+    
+    news_df['content'] = news_df['content'].apply(stemming)
+    
+    news_df['content']
+    
+    X = news_df['content'].values
+y = news_df['label'].values
+
+vector = TfidfVectorizer()
+vector.fit(X)
+X = vector.transform(X)
+
+print(X)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,stratify=y, random_state=1)
+
+X_train.shape
+
+X_test.shape
+
+model = LogisticRegression()
+model.fit(X_train,y_train)
+
+train_y_pred = model.predict(X_train)
+print("Train accurracy :",accuracy_score(train_y_pred,y_train))
+
+test_y_pred = model.predict(X_test)
+print("Test accurracy :",accuracy_score(test_y_pred,y_test))
+
+# prediction system
+
+input_data = X_test[20]
+prediction = model.predict(input_data)
+if prediction[0] == 1:
+    print('Fake news')
+else:
+    print('Real news')
+    
+news_df['content'][15]    
