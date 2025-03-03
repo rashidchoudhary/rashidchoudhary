@@ -1,37 +1,76 @@
-<h1 align="center">Hi there, I'm <a href="https://github.com/rashidchoudhary">Rashid Ali</a> 👋</h1>
----
-
-## 👨‍💻 About Me
-
-- 🚀 Passionate about **NestJS, Next.js, AWS Cognito, and backend development**
-- 🌱 Currently learning **Nest.js and AWS integrations**
-- 🛠️ Building **secure and scalable APIs**
-- 📫 Reach me at **rashidchoudhary1052@gmail.com**
-- ⚡ Fun fact: I love problem-solving and networking simulations! 🔌
+<h1 align="center">Hey there 👋, I'm Rashid Ali</h1>
+<h3 align="center">Student | Full Stack Web Developer | Team Player</h3>
 
 ---
 
-## 🚀 Tech Stack
+## 🌱 Currently Learning  
+Nest | aws   
 
-### 🏗 Backend & API Development
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+💬 Ask me about **JavaScript, TypeScript, React, Node.js, Databases, Data Structures**  
 
-### 🌐 Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+📫 Reach me at: **rashidchoudhary1052@gmail.com**  
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
+## 🚀 My Tech Stack  
+
+### 🏗 Backend  
+Node.js | Express.js | NestJS | REST | WebSockets | Microservices | Redis | Prisma | TypeORM | Mongoose | AWS   
+
+### 🗄 Database  
+MongoDB | PostgreSQL | MySQL | SQLServer  
+
+### ☁ Cloud Platforms  
+**AWS**: Lambda | S3 | EC2 | Cognito     
+
+### 🛠 DevOps & CI/CD  
+GitHub Actions | Docker   
+
+### 💳 Payment Gateways  
+Stripe   
+
+### 🎨 Frontend & UI/UX  
+React | Next.js | Redux | HTML5 | Bootstrap | MaterialUI | TailwindCSS | Ant Design | DaisyUI | Styled Components  
+
+### 💻 Programming Languages  
+JavaScript | TypeScript | Python | Java | Kotlin | C# | C++ | PHP  
+
+### 🧪 Testing & API Docs  
+Postman | Swagger  
+
+### 🛠 Tools  
+VSCode | Nodemon   
+
+### 🔄 Version Control & Project Management  
+Git | GitHub   
+---
+
+## 🔥 How I Work  
+
+- 🚀 I follow **Agile & Scrum** methodologies  
+- 🤝 I believe in **teamwork & collaboration**  
+- 👨‍💻 I advocate **pair programming & code reviews**  
+- ⚡ I emphasize **automation & CI/CD**   
+- 📝 I value **documentation & knowledge sharing**  
+- 🏗 I maintain **clean code & clean architecture principles**  
+- 📚 Passionate about **learning **  
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rashidchoudhary&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rashidchoudhary&theme=tokyonight" />
+</p>
+
+---
 
 ## 📫 Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rashid-ali-5828192b3/)    
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/rashid-ali-5828192b3/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rashidchoudhary)    
 
 ---
 
