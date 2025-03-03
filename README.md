@@ -16,7 +16,8 @@
 
 ## 🚀 My Tech Stack  
 
-### 🏠 Backend  
+### 🏠 Backend 
+<div display="flex">
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
@@ -27,7 +28,7 @@
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)  
 ![TypeORM](https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge)  
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge)  
-
+</div>
 ### 📄 Database  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
@@ -71,13 +72,5 @@
 
 ---
 
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rashidchoudhary&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rashidchoudhary&theme=tokyonight" />
-</p>
-
----
 
 🌟 **If you like what I do, give my repositories a star!** 🚀
