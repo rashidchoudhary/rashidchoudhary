@@ -91,13 +91,4 @@
 
 ---
 
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rashidchoudhary&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rashidchoudhary&theme=tokyonight" />
-</p>
-
----
-
 ⭐ **If you like what I do, give my repositories a star!** 🚀
