@@ -1,22 +1,12 @@
-<h1 align="center">Hi there, I'm <a href="https://github.com/your-username">Your Name</a> 👋</h1>
-
-<p align="center">
-  <a href="https://github.com/your-username?tab=followers">
-    <img src="https://img.shields.io/github/followers/your-username?label=Followers&style=social" />
-  </a>
-  <a href="https://github.com/your-username?tab=repositories">
-    <img src="https://img.shields.io/github/stars/your-username?label=Stars&style=social" />
-  </a>
-</p>
-
+<h1 align="center">Hi there, I'm <a href="https://github.com/rashidchoudhary">Rashid Ali</a> 👋</h1>
 ---
 
 ## 👨‍💻 About Me
 
 - 🚀 Passionate about **NestJS, Next.js, AWS Cognito, and backend development**
-- 🌱 Currently learning **Next.js and AWS integrations**
+- 🌱 Currently learning **Nest.js and AWS integrations**
 - 🛠️ Building **secure and scalable APIs**
-- 📫 Reach me at **your-email@example.com**
+- 📫 Reach me at **rashidchoudhary1052@gmail.com**
 - ⚡ Fun fact: I love problem-solving and networking simulations! 🔌
 
 ---
@@ -38,20 +28,10 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight" />
-</p>
-
----
 
 ## 📫 Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-profile)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/rashid-ali-5828192b3/))    
 
 ---
 
