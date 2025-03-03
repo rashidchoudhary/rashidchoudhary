@@ -17,18 +17,20 @@
 ## 🚀 My Tech Stack  
 
 ### 🏠 Backend
-<div>
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)  
-![WebSockets](https://img.shields.io/badge/WebSockets-000000?style=for-the-badge)  
-![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge)  
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)  
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)  
-![TypeORM](https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge)  
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge)  
-  </div>
+### 🏠 Backend
+<div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/WebSockets-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge"/>
+</div>
+
 ### 📄 Database  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
