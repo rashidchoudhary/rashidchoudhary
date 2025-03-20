@@ -1,263 +1,133 @@
-import { Github, Mail, Code, Database, Server, Cloud, Palette, Terminal, GitBranch } from "lucide-react"
+<div align="center">
+  <h1>Hey there 👋, I'm Rashid Ali</h1>
+  <h3>Student | Full Stack Web Developer | Team Player</h3>
+</div>
 
-export default function GitHubProfile() {
-  return (
-    <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
-      <header className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">Hey there 👋, I'm Rashid Ali</h1>
-        <h3 className="text-xl text-gray-600 dark:text-gray-400">Student | Full Stack Web Developer | Team Player</h3>
-        <div className="border-b border-gray-300 dark:border-gray-700 w-24 mx-auto my-6"></div>
-      </header>
+---
 
-      <section className="mb-8">
-        <div className="flex flex-wrap gap-4 mb-4">
-          <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
-            <span className="font-medium">🌱 Currently Learning:</span> NestJS | AWS
-          </div>
-          <div className="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
-            <span className="font-medium">💬 Ask me about:</span> JavaScript, TypeScript, React, Node.js, Databases
-          </div>
-          <div className="bg-purple-50 dark:bg-purple-900/20 p-3 rounded-lg flex items-center gap-2">
-            <span className="font-medium">📫 Reach me at:</span>
-            <a
-              href="mailto:rashidchoudhary1052@gmail.com"
-              className="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
-            >
-              <Mail className="w-4 h-4" />
-              rashidchoudhary1052@gmail.com
-            </a>
-          </div>
-        </div>
-      </section>
+<div>
+  <h2>About Me</h2>
+  
+  - 🌱 Currently Learning: **NestJS** | **AWS**
+  - 💬 Ask me about **JavaScript, TypeScript, React, Node.js, Databases, Data Structures**
+  - 📫 Reach me at: **rashidchoudhary1052@gmail.com**
+</div>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-          <Code className="w-6 h-6" />
-          My Tech Stack
-        </h2>
+---
 
-        <div className="space-y-8">
-          {/* Backend */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Server className="w-5 h-5" />
-              Backend
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {[
-                "Node.js",
-                "Express.js",
-                "NestJS",
-                "REST API",
-                "WebSockets",
-                "Microservices",
-                "Redis",
-                "Prisma",
-                "TypeORM",
-                "Mongoose",
-              ].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h2>🚀 My Tech Stack</h2>
 
-          {/* Database */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Database className="w-5 h-5" />
-              Database
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {["MongoDB", "PostgreSQL", "MySQL", "SQL Server"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>🏗 Backend</h3>
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" alt="REST API" />
+  <img src="https://img.shields.io/badge/WebSockets-000000?style=for-the-badge" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge" alt="Microservices" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge" alt="TypeORM" />
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge" alt="Mongoose" />
+</p>
 
-          {/* Cloud Platforms */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Cloud className="w-5 h-5" />
-              Cloud Platforms
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 px-3 py-1 rounded-md text-sm font-medium">
-                AWS (Lambda | S3 | EC2 | Cognito)
-              </span>
-            </div>
-          </div>
+<h3>🗄 Database</h3>
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+</p>
 
-          {/* DevOps & CI/CD */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <GitBranch className="w-5 h-5" />
-              DevOps & CI/CD
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {["GitHub Actions", "Docker"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>☁ Cloud Platforms</h3>
+<p>
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+</p>
+<p>- Lambda | S3 | EC2 | Cognito</p>
 
-          {/* Payment Gateways */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Payment Gateways</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-md text-sm font-medium">
-                Stripe
-              </span>
-            </div>
-          </div>
+<h3>🛠 DevOps & CI/CD</h3>
+<p>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
-          {/* Frontend & UI/UX */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Palette className="w-5 h-5" />
-              Frontend & UI/UX
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {[
-                "React",
-                "Next.js",
-                "Redux",
-                "HTML5",
-                "Bootstrap",
-                "Material UI",
-                "TailwindCSS",
-                "Ant Design",
-                "DaisyUI",
-                "Styled Components",
-              ].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-pink-100 dark:bg-pink-900/30 text-pink-800 dark:text-pink-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>💳 Payment Gateways</h3>
+<p>
+  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
+</p>
 
-          {/* Programming Languages */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Terminal className="w-5 h-5" />
-              Programming Languages
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {["JavaScript", "TypeScript", "Python", "Java", "Kotlin", "C#", "C++", "PHP"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>🎨 Frontend & UI/UX</h3>
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" alt="Ant Design" />
+  <img src="https://img.shields.io/badge/DaisyUI-FF9900?style=for-the-badge" alt="DaisyUI" />
+  <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components" />
+</p>
 
-          {/* Testing & API Docs */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Testing & API Docs</h3>
-            <div className="flex flex-wrap gap-2">
-              {["Postman", "Swagger"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>💻 Programming Languages</h3>
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+</p>
 
-          {/* Tools */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Tools</h3>
-            <div className="flex flex-wrap gap-2">
-              {["VS Code", "Nodemon"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+<h3>🧪 Testing & API Docs</h3>
+<p>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger" />
+</p>
 
-          {/* Version Control */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Version Control</h3>
-            <div className="flex flex-wrap gap-2">
-              {["Git", "GitHub"].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300 px-3 py-1 rounded-md text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+<h3>🛠 Tools</h3>
+<p>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=black" alt="Nodemon" />
+</p>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-6">🔥 How I Work</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {[
-            "🚀 I follow Agile & Scrum methodologies",
-            "🤝 I believe in teamwork & collaboration",
-            "👨‍💻 I advocate pair programming & code reviews",
-            "⚡ I emphasize automation & CI/CD",
-            "📝 I value documentation & knowledge sharing",
-            "🏗 I maintain clean code & clean architecture principles",
-            "📚 Passionate about learning",
-          ].map((item, index) => (
-            <div key={index} className="bg-gray-50 dark:bg-gray-800/50 p-3 rounded-lg">
-              {item}
-            </div>
-          ))}
-        </div>
-      </section>
+<h3>🔄 Version Control</h3>
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
-      <footer className="text-center pt-6 border-t border-gray-300 dark:border-gray-700">
-        <p className="text-gray-600 dark:text-gray-400">⭐ If you like what I do, give my repositories a star! 🚀</p>
-        <div className="mt-4 flex justify-center gap-4">
-          <a
-            href="https://github.com/yourusername"
-            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
-          >
-            <Github className="w-6 h-6" />
-            <span className="sr-only">GitHub</span>
-          </a>
-          <a
-            href="mailto:rashidchoudhary1052@gmail.com"
-            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
-          >
-            <Mail className="w-6 h-6" />
-            <span className="sr-only">Email</span>
-          </a>
-        </div>
-      </footer>
-    </div>
-  )
-}
+---
 
+<h2>🔥 How I Work</h2>
+
+<table>
+  <tr>
+    <td>🚀 I follow <b>Agile & Scrum</b> methodologies</td>
+    <td>🤝 I believe in <b>teamwork & collaboration</b></td>
+  </tr>
+  <tr>
+    <td>👨‍💻 I advocate <b>pair programming & code reviews</b></td>
+    <td>⚡ I emphasize <b>automation & CI/CD</b></td>
+  </tr>
+  <tr>
+    <td>📝 I value <b>documentation & knowledge sharing</b></td>
+    <td>🏗 I maintain <b>clean code & clean architecture principles</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">📚 Passionate about <b>learning</b></td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+  <p>⭐ <b>If you like what I do, give my repositories a star!</b> 🚀</p>
+  
+  <a href="https://github.com/yourusername">
+    <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" alt="GitHub followers" />
+  </a>
+</div>
