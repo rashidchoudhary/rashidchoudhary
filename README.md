@@ -1,94 +1,263 @@
-<h1 align="center">Hey there 👋, I'm Rashid Ali</h1>
-<h3 align="center">Student | Full Stack Web Developer | Team Player</h3>
+import { Github, Mail, Code, Database, Server, Cloud, Palette, Terminal, GitBranch } from "lucide-react"
 
----
+export default function GitHubProfile() {
+  return (
+    <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+      <header className="text-center mb-8">
+        <h1 className="text-3xl font-bold mb-2">Hey there 👋, I'm Rashid Ali</h1>
+        <h3 className="text-xl text-gray-600 dark:text-gray-400">Student | Full Stack Web Developer | Team Player</h3>
+        <div className="border-b border-gray-300 dark:border-gray-700 w-24 mx-auto my-6"></div>
+      </header>
 
-## 🌱 Currently Learning  
-**NestJS** | **AWS**   
+      <section className="mb-8">
+        <div className="flex flex-wrap gap-4 mb-4">
+          <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
+            <span className="font-medium">🌱 Currently Learning:</span> NestJS | AWS
+          </div>
+          <div className="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
+            <span className="font-medium">💬 Ask me about:</span> JavaScript, TypeScript, React, Node.js, Databases
+          </div>
+          <div className="bg-purple-50 dark:bg-purple-900/20 p-3 rounded-lg flex items-center gap-2">
+            <span className="font-medium">📫 Reach me at:</span>
+            <a
+              href="mailto:rashidchoudhary1052@gmail.com"
+              className="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+            >
+              <Mail className="w-4 h-4" />
+              rashidchoudhary1052@gmail.com
+            </a>
+          </div>
+        </div>
+      </section>
 
-💬 Ask me about **JavaScript, TypeScript, React, Node.js, Databases, Data Structures**  
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Code className="w-6 h-6" />
+          My Tech Stack
+        </h2>
 
-📫 Reach me at: **rashidchoudhary1052@gmail.com**  
+        <div className="space-y-8">
+          {/* Backend */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Server className="w-5 h-5" />
+              Backend
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "Node.js",
+                "Express.js",
+                "NestJS",
+                "REST API",
+                "WebSockets",
+                "Microservices",
+                "Redis",
+                "Prisma",
+                "TypeORM",
+                "Mongoose",
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
----
+          {/* Database */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Database className="w-5 h-5" />
+              Database
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {["MongoDB", "PostgreSQL", "MySQL", "SQL Server"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-## 🚀 My Tech Stack  
+          {/* Cloud Platforms */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Cloud className="w-5 h-5" />
+              Cloud Platforms
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 px-3 py-1 rounded-md text-sm font-medium">
+                AWS (Lambda | S3 | EC2 | Cognito)
+              </span>
+            </div>
+          </div>
 
-### 🏗 Backend  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)  
-![WebSockets](https://img.shields.io/badge/WebSockets-000000?style=for-the-badge)  
-![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge)  
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)  
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)  
-![TypeORM](https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge)  
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge)  
+          {/* DevOps & CI/CD */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <GitBranch className="w-5 h-5" />
+              DevOps & CI/CD
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {["GitHub Actions", "Docker"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-### 🗄 Database  
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)  
+          {/* Payment Gateways */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Payment Gateways</h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-md text-sm font-medium">
+                Stripe
+              </span>
+            </div>
+          </div>
 
-### ☁ Cloud Platforms  
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)  
-- Lambda | S3 | EC2 | Cognito  
+          {/* Frontend & UI/UX */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Palette className="w-5 h-5" />
+              Frontend & UI/UX
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "React",
+                "Next.js",
+                "Redux",
+                "HTML5",
+                "Bootstrap",
+                "Material UI",
+                "TailwindCSS",
+                "Ant Design",
+                "DaisyUI",
+                "Styled Components",
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-pink-100 dark:bg-pink-900/30 text-pink-800 dark:text-pink-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-### 🛠 DevOps & CI/CD  
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
+          {/* Programming Languages */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Terminal className="w-5 h-5" />
+              Programming Languages
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {["JavaScript", "TypeScript", "Python", "Java", "Kotlin", "C#", "C++", "PHP"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-### 💳 Payment Gateways  
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)  
+          {/* Testing & API Docs */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Testing & API Docs</h3>
+            <div className="flex flex-wrap gap-2">
+              {["Postman", "Swagger"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-### 🎨 Frontend & UI/UX  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)  
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)  
-![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)  
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
-![Ant Design](https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)  
-![DaisyUI](https://img.shields.io/badge/DaisyUI-FF9900?style=for-the-badge)  
-![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)  
+          {/* Tools */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Tools</h3>
+            <div className="flex flex-wrap gap-2">
+              {["VS Code", "Nodemon"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
 
-### 💻 Programming Languages  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)  
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)  
+          {/* Version Control */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Version Control</h3>
+            <div className="flex flex-wrap gap-2">
+              {["Git", "GitHub"].map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
-### 🧪 Testing & API Docs  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)  
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-6">🔥 How I Work</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            "🚀 I follow Agile & Scrum methodologies",
+            "🤝 I believe in teamwork & collaboration",
+            "👨‍💻 I advocate pair programming & code reviews",
+            "⚡ I emphasize automation & CI/CD",
+            "📝 I value documentation & knowledge sharing",
+            "🏗 I maintain clean code & clean architecture principles",
+            "📚 Passionate about learning",
+          ].map((item, index) => (
+            <div key={index} className="bg-gray-50 dark:bg-gray-800/50 p-3 rounded-lg">
+              {item}
+            </div>
+          ))}
+        </div>
+      </section>
 
-### 🛠 Tools  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
-![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=black)  
+      <footer className="text-center pt-6 border-t border-gray-300 dark:border-gray-700">
+        <p className="text-gray-600 dark:text-gray-400">⭐ If you like what I do, give my repositories a star! 🚀</p>
+        <div className="mt-4 flex justify-center gap-4">
+          <a
+            href="https://github.com/yourusername"
+            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+          >
+            <Github className="w-6 h-6" />
+            <span className="sr-only">GitHub</span>
+          </a>
+          <a
+            href="mailto:rashidchoudhary1052@gmail.com"
+            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+          >
+            <Mail className="w-6 h-6" />
+            <span className="sr-only">Email</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  )
+}
 
-### 🔄 Version Control  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
-
----
-
-## 🔥 How I Work  
-
-- 🚀 I follow **Agile & Scrum** methodologies  
-- 🤝 I believe in **teamwork & collaboration**  
-- 👨‍💻 I advocate **pair programming & code reviews**  
-- ⚡ I emphasize **automation & CI/CD**  
-- 📝 I value **documentation & knowledge sharing**  
-- 🏗 I maintain **clean code & clean architecture principles**  
-- 📚 Passionate about **learning**  
-
----
-
-⭐ **If you like what I do, give my repositories a star!** 🚀
