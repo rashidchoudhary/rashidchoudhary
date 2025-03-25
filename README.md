@@ -127,7 +127,7 @@
 <div align="center">
   <p>⭐ <b>If you like what I do, give my repositories a star!</b> 🚀</p>
   
-  <a href="https://github.com/yourusername">
+  <a href="https://github.com/rashidchoudhary">
     <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" alt="GitHub followers" />
   </a>
 </div>
