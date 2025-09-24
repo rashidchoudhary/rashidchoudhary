@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hey there 👋, I'm Rashid Ali</h1>
-  <h3>Student | Full Stack Web Developer | Team Player</h3>
+  <h3>Full Stack Web Developer | Team Player</h3>
 </div>
 
 ---
