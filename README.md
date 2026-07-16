@@ -1,142 +1,182 @@
 <div align="center">
-  <h1>Hey there 👋, I'm Rashid Ali</h1>
-  <h3>Senior Full Stack Developer | Cloud & DevOps Enthusiast | Scalable System Builder</h3>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=220&section=header&text=Rashid%20Ali&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Full%20Stack%20Developer%20%7C%20Cloud%20%26%20DevOps%20Engineer&descAlignY=55&descSize=18"/>
+
+<br/>
+
+<a href="https://github.com/rashidchoudhary">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+systems+with+clean+architecture;Node.js+%7C+React+%7C+Next.js+%7C+TypeScript;Cloud+%26+DevOps+Enthusiast+%E2%98%81%EF%B8%8F;Always+shipping%2C+always+learning+%F0%9F%9A%80" />
+</a>
+
+<br/><br/>
+
+<a href="mailto:rashidchoudhary1052@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/></a>
+<a href="https://github.com/rashidchoudhary"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/></a>
+
 </div>
 
----
+<br/>
 
-<div>
-  <h2>About Me</h2>
-  
-  - 💬 Ask me about **JavaScript, TypeScript, React, Node.js, Databases, System Design, Data Structures**
-  - 📫 Reach me at: **rashidchoudhary1052@gmail.com**
-</div>
+## 🧭 About Me
 
----
+```yaml
+name: Rashid Ali
+role: Senior Full Stack Developer
+focus: [System Design, Scalable Architecture, Cloud Infrastructure, DevOps]
+currently_exploring: [Distributed Systems, Kubernetes, AI-assisted engineering]
+ask_me_about: [JavaScript, TypeScript, React, Node.js, Databases, System Design, DSA]
+fun_fact: "I ship code faster than coffee gets cold ☕"
+```
 
-<h2>🚀 My Tech Stack</h2>
+<br/>
 
-<h3>🏗 Backend</h3>
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSockets-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge" />
-</p>
+## 🧩 Tech Arsenal
 
-<h3>🗄 Database</h3>
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</p>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-<h3>☁ Cloud Platforms</h3>
-<p>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
-<p>- Lambda | S3 | EC2 | Cognito | App Services | Blob Storage</p>
+### 🎨 Frontend & UI
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,html,css,tailwind,bootstrap,materialui,js,ts&theme=dark" />
 
-<h3>🛠 DevOps & CI/CD</h3>
-<p>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</p>
+<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white&labelColor=18181b"/>
+<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/DaisyUI-1AD1A5?style=for-the-badge&labelColor=1a1a2e"/>
 
-<h3>💳 Payment Gateways</h3>
-<p>
-  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-  <img src="https://img.shields.io/badge/Paylink-00AEEF?style=for-the-badge" />
-</p>
+</td>
+<td width="50%" valign="top">
 
-<h3>🎨 Frontend & UI/UX</h3>
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
-  <img src="https://img.shields.io/badge/DaisyUI-FF9900?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
-</p>
+### 🏗 Backend & APIs
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,graphql,redis,prisma&theme=dark" />
 
-<h3>💻 Programming Languages</h3>
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-</p>
+<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&labelColor=1a1a2e"/>
 
-<h3>🧪 Testing & API Docs</h3>
-<p>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" />
-</p>
+</td>
+</tr>
 
-<h3>🛠 Tools</h3>
-<p>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Termius-2C8EBB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=black" />
-</p>
+<tr>
+<td width="50%" valign="top">
 
-<h3>🔄 Version Control</h3>
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+### 🗄 Databases
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase,supabase&theme=dark" />
 
----
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=1a1a2e"/>
 
-<h2>🔥 How I Work</h2>
+</td>
+<td width="50%" valign="top">
 
-<table>
-  <tr>
-    <td>🚀 I follow <b>Agile & Scrum</b> methodologies</td>
-    <td>🤝 I believe in <b>teamwork & collaboration</b></td>
-  </tr>
-  <tr>
-    <td>👨‍💻 I advocate <b>pair programming & code reviews</b></td>
-    <td>⚡ I emphasize <b>automation & CI/CD</b></td>
-  </tr>
-  <tr>
-    <td>📝 I value <b>documentation & knowledge sharing</b></td>
-    <td>🏗 I maintain <b>clean code & clean architecture principles</b></td>
-  </tr>
+### ☁️ Cloud, DevOps & Infra
+<img src="https://skillicons.dev/icons?i=aws,azure,vercel,docker,kubernetes,jenkins,githubactions&theme=dark" />
+
+<img src="https://img.shields.io/badge/Hostinger_VPS-673DE6?style=for-the-badge&logo=hostinger&logoColor=white&labelColor=1a1a2e"/>
+<p>Lambda • S3 • EC2 • Cognito • App Services • Blob Storage</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Languages
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,kotlin,cs,cpp,php&theme=dark" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 Testing, Docs & PM
+<img src="https://skillicons.dev/icons?i=postman,swagger,jira,git,github&theme=dark" />
+
+<img src="https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white&labelColor=1a1a2e"/>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💳 Payments
+<img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Paylink-00AEEF?style=for-the-badge&labelColor=1a1a2e"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠 Daily Drivers
+<img src="https://skillicons.dev/icons?i=vscode,cursor,nodemon&theme=dark" />
+
+<img src="https://img.shields.io/badge/Termius-2C8EBB?style=for-the-badge&logo=termius&logoColor=white&labelColor=1a1a2e"/>
+
+</td>
+</tr>
 </table>
 
----
+<br/>
+
+## 🚀 Best Suited For
 
 <div align="center">
-  <p>⭐ <b>If you like what I do, give my repositories a star!</b> 🚀</p>
-  
-  <a href="https://github.com/rashidchoudhary">
-    <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" />
-  </a>
+
+| Domain | What I Bring |
+|---|---|
+| **Backend Architecture** | Designing scalable REST/GraphQL APIs, microservices & event-driven systems |
+| **Cloud & Server Management** | Deploying & maintaining production apps on **Hostinger VPS**, AWS & Azure, SSH workflows via **Termius** |
+| **Modern Frontend Engineering** | Building polished, accessible UIs with **React**, **Next.js** & **shadcn/ui** |
+| **DevOps & Automation** | CI/CD pipelines, Dockerized deployments, Kubernetes orchestration |
+| **Database Design** | Schema design & optimization across SQL and NoSQL systems |
+
+</div>
+
+<br/>
+
+## ⚙️ How I Work
+
+<table width="100%">
+<tr>
+<td width="33%" align="center">🚀<br/><b>Agile & Scrum</b><br/>Iterative delivery</td>
+<td width="33%" align="center">🤝<br/><b>Collaboration</b><br/>Pair programming & reviews</td>
+<td width="33%" align="center">⚡<br/><b>Automation</b><br/>CI/CD first mindset</td>
+</tr>
+<tr>
+<td width="33%" align="center">📝<br/><b>Documentation</b><br/>Knowledge sharing</td>
+<td width="33%" align="center">🏗<br/><b>Clean Architecture</b><br/>Maintainable systems</td>
+<td width="33%" align="center">🔐<br/><b>Reliability</b><br/>Secure, monitored infra</td>
+</tr>
+</table>
+
+<br/>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+<img height="165px" src="https://github-readme-stats.vercel.app/api?username=rashidchoudhary&show_icons=true&theme=tokyonight&border_radius=14&hide_border=true&count_private=true"/>
+<img height="165px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rashidchoudhary&layout=compact&theme=tokyonight&border_radius=14&hide_border=true"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rashidchoudhary&theme=tokyonight&border_radius=14&hide_border=true" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rashidchoudhary&theme=tokyo-night&hide_border=true&radius=14&area=true" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⭐ If you like what I build, consider starring my repositories!
+
+<img src="https://img.shields.io/github/followers/rashidchoudhary?label=Follow&style=for-the-badge&labelColor=1a1a2e&color=6366f1"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0f172a&height=120&section=footer"/>
+
 </div>
