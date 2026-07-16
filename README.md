@@ -81,12 +81,14 @@ I'm a full-stack developer who likes taking a project the whole distance, from a
 
 Before I write a single line of code, I want the requirements nailed down — what we're building, for whom, and what "done" actually looks like. Skipping that step is how projects end up rebuilt twice. Day to day, that looks like:
 
-| | |
-|---|---|
-| 🧭 Full clarity on requirements before a line of code gets written | 🤝 Pair programming and code reviews over solo heroics |
-| 🚀 Agile & Scrum, with the ceremony tuned to what the team actually needs | 📝 Documentation the next engineer actually reads |
-| ⚡ CI/CD and automation wherever it earns its keep | 🏗 Clean architecture and clear service boundaries |
-| 🔍 Fail fast, fail loud — explicit errors over silent ones | 🧪 Tests that catch problems before users do |
+- 🧭 Full clarity on requirements before a line of code gets written
+- 🏗 Clean architecture and clear service boundaries
+- 🤝 Pair programming and code reviews over solo heroics
+- 📝 Documentation the next engineer actually reads
+- ⚡ CI/CD and automation wherever it earns its keep
+- 🧪 Tests that catch problems before users do
+- 🚀 Agile & Scrum, with the ceremony tuned to what the team actually needs
+- 🔍 Fail fast, fail loud — explicit errors over silent ones
 
 <br/>
 
