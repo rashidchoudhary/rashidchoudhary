@@ -1,142 +1,77 @@
 <div align="center">
-  <h1>Hey there 👋, I'm Rashid Ali</h1>
-  <h3>Senior Full Stack Developer | Cloud & DevOps Enthusiast | Scalable System Builder</h3>
+
+# Rashid Ali
+
+**Senior Full Stack Developer · Cloud & AI-Powered Systems**
+
+<a href="mailto:rashidchoudhary1052@gmail.com">
+  <img src="https://img.shields.io/badge/-Get%20in%20touch-1F2328?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://github.com/rashidchoudhary">
+  <img src="https://img.shields.io/github/followers/rashidchoudhary?label=Follow&style=flat-square&color=1F2328" alt="Follow" />
+</a>
+
 </div>
 
----
+<br/>
 
-<div>
-  <h2>About Me</h2>
-  
-  - 💬 Ask me about **JavaScript, TypeScript, React, Node.js, Databases, System Design, Data Structures**
-  - 📫 Reach me at: **rashidchoudhary1052@gmail.com**
-</div>
+I'm a full-stack developer who likes taking a project the whole distance, from a blank repo to something real people log into every day. I write the backend, wire up the cloud infrastructure underneath it, and build the interface on top, and I care more about a system staying easy to reason about six months in than about how fast it came together on day one.
 
----
+**What I build**
 
-<h2>🚀 My Tech Stack</h2>
+- **Full products, not just demos** — from a first prototype to a version stable enough to have real users and real data running through it
+- **APIs & services** — Node.js / NestJS backends with clean service boundaries, real-time features over WebSockets, Redis-backed caching, and event-driven microservices
+- **Cloud infrastructure** — deployments across AWS, Azure and Vercel, containerized with Docker and Kubernetes, shipped through CI/CD
+- **AI-powered features** — OpenAI and LangChain integrations, RAG pipelines, and document workflows powered by OCR (PaddleOCR)
+- **Automation** — workflow automation with n8n, wiring existing tools together instead of duct-taping scripts between them
+- **Payments & commerce** — checkout flows and billing integrations with Stripe and Paylink, and custom Shopify storefronts and apps
+- **Interfaces** — React / Next.js frontends on whatever design system fits the project, from Tailwind and shadcn/ui to Chakra UI and Ant Design
 
-<h3>🏗 Backend</h3>
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSockets-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeORM-E34F26?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge" />
-</p>
+**Currently**
 
-<h3>🗄 Database</h3>
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</p>
+- 🧠 Currently learning: applied AI & LLM engineering — RAG pipelines, agentic workflows, and fine-tuning
+- 💬 Ask me about Node.js, React, cloud architecture, and system design
+- 📫 rashidchoudhary1052@gmail.com
 
-<h3>☁ Cloud Platforms</h3>
-<p>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
-<p>- Lambda | S3 | EC2 | Cognito | App Services | Blob Storage</p>
+<br/>
 
-<h3>🛠 DevOps & CI/CD</h3>
-<p>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</p>
+## Tech Stack
 
-<h3>💳 Payment Gateways</h3>
-<p>
-  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-  <img src="https://img.shields.io/badge/Paylink-00AEEF?style=for-the-badge" />
-</p>
+| | |
+|---|---|
+| **Languages** | ![JavaScript](https://img.shields.io/badge/-JavaScript-1F2328?style=flat&logo=javascript) ![TypeScript](https://img.shields.io/badge/-TypeScript-1F2328?style=flat&logo=typescript) ![Python](https://img.shields.io/badge/-Python-1F2328?style=flat&logo=python) ![Java](https://img.shields.io/badge/-Java-1F2328?style=flat&logo=openjdk) ![Kotlin](https://img.shields.io/badge/-Kotlin-1F2328?style=flat&logo=kotlin) ![C%23](https://img.shields.io/badge/-C%23-1F2328?style=flat&logo=csharp) ![C++](https://img.shields.io/badge/-C%2B%2B-1F2328?style=flat&logo=cplusplus) ![PHP](https://img.shields.io/badge/-PHP-1F2328?style=flat&logo=php) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/-Node.js-1F2328?style=flat&logo=node.js) ![Express](https://img.shields.io/badge/-Express-1F2328?style=flat&logo=express) ![NestJS](https://img.shields.io/badge/-NestJS-1F2328?style=flat&logo=nestjs) ![REST API](https://img.shields.io/badge/-REST%20API-1F2328?style=flat) ![WebSockets](https://img.shields.io/badge/-WebSockets-1F2328?style=flat) ![Microservices](https://img.shields.io/badge/-Microservices-1F2328?style=flat) ![Redis](https://img.shields.io/badge/-Redis-1F2328?style=flat&logo=redis) ![Prisma](https://img.shields.io/badge/-Prisma-1F2328?style=flat&logo=prisma) ![Drizzle](https://img.shields.io/badge/-Drizzle-1F2328?style=flat&logo=drizzle) ![TypeORM](https://img.shields.io/badge/-TypeORM-1F2328?style=flat) ![Mongoose](https://img.shields.io/badge/-Mongoose-1F2328?style=flat&logo=mongoose) |
+| **AI & ML** | ![OpenAI](https://img.shields.io/badge/-OpenAI-1F2328?style=flat&logo=openai) ![LangChain](https://img.shields.io/badge/-LangChain-1F2328?style=flat&logo=langchain) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-1F2328?style=flat&logo=huggingface) ![PaddleOCR](https://img.shields.io/badge/-PaddleOCR-1F2328?style=flat) |
+| **Databases** | ![MongoDB](https://img.shields.io/badge/-MongoDB-1F2328?style=flat&logo=mongodb) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1F2328?style=flat&logo=postgresql) ![MySQL](https://img.shields.io/badge/-MySQL-1F2328?style=flat&logo=mysql) ![SQL Server](https://img.shields.io/badge/-SQL%20Server-1F2328?style=flat&logo=microsoftsqlserver) ![Supabase](https://img.shields.io/badge/-Supabase-1F2328?style=flat&logo=supabase) ![Firebase](https://img.shields.io/badge/-Firebase-1F2328?style=flat&logo=firebase) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/-AWS-1F2328?style=flat&logo=amazonaws) ![AWS Cognito](https://img.shields.io/badge/-AWS%20Cognito-1F2328?style=flat) ![Amazon S3](https://img.shields.io/badge/-Amazon%20S3-1F2328?style=flat&logo=amazons3) ![Azure](https://img.shields.io/badge/-Azure-1F2328?style=flat&logo=microsoftazure) ![Vercel](https://img.shields.io/badge/-Vercel-1F2328?style=flat&logo=vercel) ![Hostinger](https://img.shields.io/badge/-Hostinger-1F2328?style=flat&logo=hostinger) ![Nginx](https://img.shields.io/badge/-Nginx-1F2328?style=flat&logo=nginx) ![Docker](https://img.shields.io/badge/-Docker-1F2328?style=flat&logo=docker) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-1F2328?style=flat&logo=kubernetes) ![Jenkins](https://img.shields.io/badge/-Jenkins-1F2328?style=flat&logo=jenkins) ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-1F2328?style=flat&logo=githubactions) |
+| **Payments & Commerce** | ![Stripe](https://img.shields.io/badge/-Stripe-1F2328?style=flat&logo=stripe) ![Paylink](https://img.shields.io/badge/-Paylink-1F2328?style=flat) ![Shopify](https://img.shields.io/badge/-Shopify-1F2328?style=flat&logo=shopify) |
+| **Frontend** | ![React](https://img.shields.io/badge/-React-1F2328?style=flat&logo=react) ![Next.js](https://img.shields.io/badge/-Next.js-1F2328?style=flat&logo=nextdotjs) ![Redux](https://img.shields.io/badge/-Redux-1F2328?style=flat&logo=redux) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-1F2328?style=flat&logo=tailwindcss) ![shadcn/ui](https://img.shields.io/badge/-shadcn%2Fui-1F2328?style=flat&logo=shadcnui) ![Chakra UI](https://img.shields.io/badge/-Chakra%20UI-1F2328?style=flat&logo=chakraui) ![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-1F2328?style=flat&logo=framer) ![Material UI](https://img.shields.io/badge/-Material%20UI-1F2328?style=flat&logo=mui) ![Ant Design](https://img.shields.io/badge/-Ant%20Design-1F2328?style=flat&logo=antdesign) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-1F2328?style=flat&logo=bootstrap) ![DaisyUI](https://img.shields.io/badge/-DaisyUI-1F2328?style=flat&logo=daisyui) ![Styled Components](https://img.shields.io/badge/-Styled%20Components-1F2328?style=flat&logo=styledcomponents) ![HTML5](https://img.shields.io/badge/-HTML5-1F2328?style=flat&logo=html5) ![CSS3](https://img.shields.io/badge/-CSS3-1F2328?style=flat&logo=css3) |
+| **Testing & Docs** | ![Postman](https://img.shields.io/badge/-Postman-1F2328?style=flat&logo=postman) ![Swagger](https://img.shields.io/badge/-Swagger-1F2328?style=flat&logo=swagger) |
+| **Tools** | ![VS Code](https://img.shields.io/badge/-VS%20Code-1F2328?style=flat&logo=visual-studio-code) ![Cursor](https://img.shields.io/badge/-Cursor-1F2328?style=flat&logo=cursor) ![n8n](https://img.shields.io/badge/-n8n-1F2328?style=flat&logo=n8n) ![Termius](https://img.shields.io/badge/-Termius-1F2328?style=flat) ![Jira](https://img.shields.io/badge/-Jira-1F2328?style=flat&logo=jira) ![Trello](https://img.shields.io/badge/-Trello-1F2328?style=flat&logo=trello) ![Nodemon](https://img.shields.io/badge/-Nodemon-1F2328?style=flat) ![Git](https://img.shields.io/badge/-Git-1F2328?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-1F2328?style=flat&logo=github) |
 
-<h3>🎨 Frontend & UI/UX</h3>
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
-  <img src="https://img.shields.io/badge/DaisyUI-FF9900?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
-</p>
+<sub>Cloud services: Lambda · EC2 · App Services · Blob Storage</sub>
 
-<h3>💻 Programming Languages</h3>
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-</p>
+<br/>
 
-<h3>🧪 Testing & API Docs</h3>
-<p>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" />
-</p>
+## How I Work
 
-<h3>🛠 Tools</h3>
-<p>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Termius-2C8EBB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=black" />
-</p>
+Before I write a single line of code, I want the requirements nailed down — what we're building, for whom, and what "done" actually looks like. Skipping that step is how projects end up rebuilt twice. Day to day, that looks like:
 
-<h3>🔄 Version Control</h3>
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+| | |
+|---|---|
+| 🧭 Full clarity on requirements before a line of code gets written | 🤝 Pair programming and code reviews over solo heroics |
+| 🚀 Agile & Scrum, with the ceremony tuned to what the team actually needs | 📝 Documentation the next engineer actually reads |
+| ⚡ CI/CD and automation wherever it earns its keep | 🏗 Clean architecture and clear service boundaries |
+| 🔍 Fail fast, fail loud — explicit errors over silent ones | 🧪 Tests that catch problems before users do |
 
----
-
-<h2>🔥 How I Work</h2>
-
-<table>
-  <tr>
-    <td>🚀 I follow <b>Agile & Scrum</b> methodologies</td>
-    <td>🤝 I believe in <b>teamwork & collaboration</b></td>
-  </tr>
-  <tr>
-    <td>👨‍💻 I advocate <b>pair programming & code reviews</b></td>
-    <td>⚡ I emphasize <b>automation & CI/CD</b></td>
-  </tr>
-  <tr>
-    <td>📝 I value <b>documentation & knowledge sharing</b></td>
-    <td>🏗 I maintain <b>clean code & clean architecture principles</b></td>
-  </tr>
-</table>
-
----
+<br/>
 
 <div align="center">
-  <p>⭐ <b>If you like what I do, give my repositories a star!</b> 🚀</p>
-  
-  <a href="https://github.com/rashidchoudhary">
-    <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" />
-  </a>
+
+⭐ **If any of this is useful to you, a star on the repo goes a long way.**
+
+<a href="https://github.com/rashidchoudhary">
+  <img src="https://img.shields.io/badge/-@rashidchoudhary-1F2328?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</a>
+
 </div>
